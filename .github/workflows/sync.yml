@@ -17,5 +17,5 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git remote add hf https://oauth:$HF_TOKEN@huggingface.co/CHIHONGLAM/LINZIHONG
+          git remote add hf https://oauth:$HF_TOKEN@huggingface.co/CHIHONGLAM/LINZHIHONG
           git push --force hf main:main
